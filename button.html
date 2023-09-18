@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="uft-8">
+    <title> 버튼 </title>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&display=swap" rel="stylesheet">
+    
+    <style>
+        .btn{
+            text-decoration: none;
+            font-size: 2rem;
+            color: white;
+            padding: 10px 20px 10px 20px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 50px;
+            transition: all 0.05s;
+            text-shadow: 0px -2px rgba(0, 0, 0, 0.374) ;
+            font-family: 'Archivo Black', sans-serif;
+            font-family: 'Gruppo', sans-serif;
+        }
+        .btn:active{
+            transform: translateY(10px);
+
+        }
+        .btn.blue{
+            background-color: rgb(37, 51, 157);
+            border-bottom: 8px solid rgb(10, 17, 68);
+        }
+        .btn.blue:active{
+            border-bottom: 2px solid rgb(10, 17, 68);
+        }
+
+        .btn.red{
+            background-color: rgb(179, 44, 44);
+            border-bottom: 8px solid rgb(87, 17, 17);
+        }
+        .btn.red:active{
+            border-bottom: 2px solid rgb(87, 17, 17);
+        }
+    </style>
+
+</head>
+
+<body>
+    <a class="btn blue" href="blue">BLUE</a>
+    <a class="btn red" href="red">RED</a>
+    
+</body>
+
+</html>
